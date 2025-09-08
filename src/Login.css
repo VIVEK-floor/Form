@@ -1,0 +1,67 @@
+.settings-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.settings-card {
+  width: 400px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.settings-title {
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  color:black
+}
+
+.profile-section {
+  display: flex;
+  align-items: center;
+}
+
+.profile-image {
+  position: relative;
+  margin-right: 15px;
+}
+
+.profile-image img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #ddd;
+}
+
+.camera-icon {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: #007bff;
+  color: white;
+  border-radius: 50%;
+  padding: 5px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.profile-info {
+  flex: 1;
+  color:black
+}
+
+.email {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+
+.description {
+color:black
+}
